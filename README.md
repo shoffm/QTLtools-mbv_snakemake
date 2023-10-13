@@ -17,6 +17,8 @@ Make and activate the conda environment from the [qtltools_sn.yml](). Help getti
 conda env create -f qtltools_sn # do this only once, the first time
 conda activate qtltools_sn # do this every time
 ```
+### 2. Install QTLtools 
+Using download & installation link [here](https://qtltools.github.io/qtltools/)
 
 ### 2. Edit Snakefile 
 In the snakefile there is one step, running mbv. For this you will need
