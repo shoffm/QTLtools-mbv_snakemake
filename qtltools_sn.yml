@@ -1,0 +1,6 @@
+name: qtltools_sn
+channels:
+  - bioconda
+  - defaults
+dependencies:
+  - snakemake
