@@ -23,7 +23,7 @@ In the snakefile there is one step, running mbv. For this you will need
 - One VCF file containing all genotype samples in the dataset
 - Path to a directory of BAM files to compare to
 - Empty output directory
-**Edit** the [Snakefile]() to point to the correct directories.
+**Edit** the [Snakefile](https://github.com/shoffm/QTLtools-mbv_snakemake/blob/main/Snakefile) to point to the correct directories.
 
 Do a dry run to determine id snakemake can make sense of your input and output paths in the workflow. 
 ```
