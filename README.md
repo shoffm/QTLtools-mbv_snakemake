@@ -21,10 +21,11 @@ conda activate qtltools_sn # do this every time
 Using download & installation link [here](https://qtltools.github.io/qtltools/)
 
 ### 3. Edit Snakefile 
-In the snakefile there is one step, running mbv. For this you will need
+In the snakefile there is one step, running mbv. For this you will need: 
 - One VCF file containing all genotype samples in the dataset
 - Path to a directory of BAM files to compare to
 - Empty output directory
+
 **Edit** the [Snakefile](https://github.com/shoffm/QTLtools-mbv_snakemake/blob/main/Snakefile) to point to the correct directories.
 
 Do a dry run to determine id snakemake can make sense of your input and output paths in the workflow. 
@@ -34,6 +35,7 @@ snakemake -n
 
 ### 4. Submit snakemake job 
 Submission bash script can be found here [submit_snakemake.sh](https://github.com/shoffm/QTLtools-mbv_snakemake/blob/main/submit_snakemake.sh). 
+
 **Edit** the script to add a path to logfiles. 
 Remember to have activated your conda environment from step 1. 
 ```
