@@ -31,7 +31,8 @@ snakemake -n
 ```
 
 ### 3. Submit snakemake job 
-Submission bash script can be found here [submit_snakemake.sh](). 
+Submission bash script can be found here [submit_snakemake.sh](https://github.com/shoffm/QTLtools-mbv_snakemake/blob/main/submit_snakemake.sh). 
+**Edit** the script to add a path to logfiles. 
 Remember to have activated your conda environment from step 1. 
 ```
 bsub < submit_snakemake.sh
