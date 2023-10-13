@@ -12,7 +12,7 @@ Help getting started with snakemake [here](https://github.com/Snitkin-Lab-Umich/
 
 ### For this pipeline you will need to: 
 ### 1. Make and activate a conda environment 
-Make and activate the conda environment from the [qtltools_sn.yml](). Help getting started with conda here.
+Make and activate the conda environment from the [qtltools_sn.yml](). Help getting started with conda [here](https://github.com/Snitkin-Lab-Umich/Snakemake_setup#conda).
 ```
 conda env create -f qtltools_sn # do this only once, the first time
 conda activate qtltools_sn # do this every time
